@@ -1,0 +1,172 @@
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+:root {
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --sniglet-font: "sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background: var(--bggradient);
+}
+
+header a {
+    font-family: var(--sniglet-font);
+    color: white;
+}
+
+.navbar-brand {
+    padding-left:  8rem;
+}
+
+.nav-item:last-child {
+    padding-right:  10rem;
+}
+.nav-item {
+    padding: 0.9rem;
+}
+
+.nav-link:hover {
+    color: black
+}
+
+header a {
+    font-size: 0.9em;
+}
+
+header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+}
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+    width: 140%;
+    margin-top: 90px;
+}
+
+header .container .col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header .container .col-md-7 {
+    font-family: "Rubik", sans-serif;
+}
+
+header .container .col-md-7 h1 {
+    padding: 0.1em 0em;
+    font-size: 8.5vmin;
+    font-weight: bold;
+}
+
+header .container .col-md-7 p {
+    padding: 1vmin 5vmin
+}
+
+.btn-outline-light {
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+
+/* Section 2 */
+.cover {
+    width: 100%;
+    height: 55vmin;
+    position: relative;
+}
+
+.cover .content {
+    width: 100%;
+    height: 100%;
+    padding-top: 19vmin;   
+}
+
+.cover .content > h1 {
+    font-size: 6vmin;
+    color: rgb(80, 79, 79);
+}
+
+.cover .content > p {
+    font-size: 2vmin;
+    color: rgb(80, 79, 79);
+}
+
+.numbers {
+    margin-top: -15vmin;
+}
+
+.numbers .rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 0.5em;
+    
+}
+.rect-text {
+    opacity: 0;
+    color: white;
+    transform: 0.4s;
+    font-size: 30px;
+}
+.rect-hover{
+    width: 17rem;
+    height: 12rem;
+    background: rgba(17, 4, 65, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.rect:hover .rect-hover{
+    opacity: 1;
+}
+
+.rect:hover .rect-text {
+    opacity: 1;
+    transform: translateY(-7rem);
+}
+.numbers .rect-img{
+    padding-top: 0;
+}
+
+.projects{
+    margin-top: 80px;
+    width:100%;
+}
+.projects > p{
+    margin-bottom:60px;
+}
+
+footer {
+    padding: 14vmin 18vmin;
+    margin-top: 120px;
+    background: rgb(211, 211, 211);
+}
+
+
+.social{
+    margin:10px;
+    
+}
